@@ -1,0 +1,369 @@
+
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top:30px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s ease, transform 3s ease;
+    
+    
+  }
+  .card.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .card.card-1{
+    color:white;
+    height:450px;
+    width:350px;
+    margin-left:30px;
+    background-color:black;
+    
+    position: relative;
+   
+
+  }
+  .card.card-1 img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the image horizontally */
+  }
+  .card.card-1 h2{
+    font-size:25px;
+    font-weight:500;
+    
+  }
+  .card.card-1 p{
+    font-size:35px;
+    font-weight:500;
+    margin-top:1px;
+
+
+  }
+  .card.card-1 button{
+    padding:20px;
+    font-size:15px;
+    font-weight:500;
+    border-radius:20px;
+    background: linear-gradient(to left, #2193b0, #6dd5ed);
+    color:white;
+  }
+  .card.card-1 button:hover{
+    background:white;
+    color:black;
+  }
+
+
+
+
+  .card.card-2 {
+    color: white;
+    height: 450px;
+    width: 350px;
+    background-color: #ED7014;
+     /* Ensure that content outside the card is hidden */
+    position: relative; /* Establish a positioning context for the image */
+}
+
+.card.card-2 img {
+    width: 400px;
+    position: absolute;
+    top: -135px; 
+    right: -35px; 
+}
+.card.card-2 h2{
+  font-size:25px;
+  font-weight:500;
+ 
+  position:relative;
+  top:170px;
+
+  
+}
+.card.card-2 p{
+  font-size:35px;
+  font-weight:500;
+  margin-top:1px;
+  position:relative;
+  top:170px;
+
+
+}
+.card.card-2 button{
+  padding:20px;
+  font-size:15px;
+  font-weight:500;
+  border-radius:20px;
+  background:black;
+  color:white;
+  position:relative;
+  top:170px;
+}
+.card.card-2 button:hover{
+  background:white;
+  color:black;
+}
+
+  /* card3*/
+  .card.card-3{
+    color:white;
+    height:450px;
+    width:350px;
+    margin-right:30px;
+    background-color:black;
+    
+    position: relative;
+    
+  
+  
+
+  }
+  .card.card-3 img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Center the image horizontally */
+   
+  }
+  .card.card-3 h2{
+    font-size:25px;
+    font-weight:500;
+    
+  }
+  .card.card-3 p{
+    font-size:35px;
+    font-weight:500;
+    margin-top:1px;
+
+
+  }
+  .card.card-3 button{
+    padding:20px;
+    font-size:15px;
+    font-weight:500;
+    border-radius:20px;
+    background: linear-gradient(to left, #FF0099, #493240);
+    color:white;
+  }
+  .card.card-3 button:hover{
+    background:white;
+    color:black;
+  }
+
+  .card.card-4{
+    color:white;
+    background-color:gray;
+    height:450px;
+    width:350px;
+    margin-left:30px;
+    position:relative;
+   
+  
+  
+
+  }
+  .card.card-4 img{
+    position: absolute;
+    bottom: 10px;
+    width:250px;
+    left: 50%;
+    transform: translateX(-20%);
+    bottom:0;
+
+  }
+  .card.card-4 h2{
+    font-size:25px;
+    font-weight:500;
+    
+  }
+  .card.card-4 p{
+    font-size:35px;
+    font-weight:500;
+    margin-top:1px;
+
+
+  }
+  .card.card-4 button{
+    padding:20px;
+    font-size:15px;
+    font-weight:500;
+    border-radius:20px;
+    margin-top:3px;
+    background-color:black;
+    color:white;
+    
+  }
+  .card.card-4 button:hover{
+    background-color:white;
+    color:black;
+  }
+  
+ 
+  
+  
+
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .card.card-5{
+    
+    height:200px;
+    width:450px;
+    position:relative;
+    background-color:#E1E1D9;
+    
+  
+
+  }
+  .card.card-5 h2{
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 150px; /* Adjust as needed */
+    left: 20px;
+    color:black;
+  }
+  .card.card-5 p{
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 100px; /* Adjust as needed */
+    left: 20px;
+    color:black;
+
+  }
+  .card.card-5 button{
+    padding:20px;
+    font-size:15px;
+    font-weight:500;
+    border-radius:20px;
+    background-color:white;
+    color:black;
+    position: absolute;
+    bottom: 50px; /* Adjust as needed */
+    left: 20px;
+
+  }
+  .card.card-5 button:hover{
+    background-color:black;
+    color:white;
+  }
+  .card.card-5 img{
+    position:absolute;
+    width:70%;
+  }
+  .card.card-6{
+    
+    height:200px;
+    width:450px;
+    background-color:#FA2A55;
+    position:relative;
+   
+
+  }
+  .card.card-6 h2{
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 150px; /* Adjust as needed */
+    left: 20px;
+    color:white;
+  }
+  .card.card-6 p{
+    font-size: 25px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 100px; /* Adjust as needed */
+    left: 20px;
+    color:white;
+
+  }
+  .card.card-6 button{
+    padding:20px;
+    font-size:15px;
+    font-weight:500;
+    border-radius:20px;
+    background-color:black;
+    color:white;
+    position: absolute;
+    bottom: 50px; /* Adjust as needed */
+    left: 20px;
+
+  }
+  .card.card-6 button:hover{
+    background-color:white;
+    color:black;
+  }
+  .card.card-6 img{
+    position:absolute;
+    width:70%;
+  }
+  
+  .card.card-7{
+    color:white;
+    height:470px;
+    width:250px;
+    margin-left:50px;
+    position:relative;
+    background:black;
+
+  }
+  .card.card-7 img{
+    position: absolute;
+    bottom: 10px;
+    width:250px;
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
+  .card.card-7 h2{
+    font-size:25px;
+    font-weight:500;
+    
+  }
+  .card.card-7 p{
+    font-size:35px;
+    font-weight:500;
+    margin-top:1px;
+
+
+  }
+  .card.card-7 button{
+    padding:20px;
+    font-size:15px;
+    font-weight:500;
+    border-radius:20px;
+    margin-top:3px;
+    background: linear-gradient(to left,  #B78628, #C69320);
+    color:white;
+
+  }
+  .card.card-7 button:hover{
+    background:white;
+    color:black;
+  }
+  
+
+  
+ 
+  

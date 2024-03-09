@@ -1,0 +1,57 @@
+.add {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    width: 80%;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative; /* Add relative positioning */
+  }
+  
+  .add-v {
+    flex: 1; /* Allow the text to take remaining space */
+    font-size: 20px;
+    margin-left: 40px;
+  }
+  
+  .add-v h3 {
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  .add-v button {
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    background: linear-gradient(to left, #ff0099, #493240);
+    color: white;
+  }
+  
+  .add-v img {
+    position: absolute; /* Position the image absolutely within the container */
+    top: 80px; /* Position it in the vertical center */
+    right: 20px; /* Adjust the right spacing */
+    transform: translateY(-50%); /* Center vertically */
+    width: 50%; /* Adjust the width as needed */
+  }
+  .home-add {
+    
+    width:600px;
+    
+  }
+ .custom1{
+    background-color:black;
+  }
+  .custom2{
+    background-color:blue;
+  }
+ 
+ 

@@ -1,0 +1,136 @@
+/* Footer.css */
+
+/* Style for the container */
+/* Footer.css */
+
+/* Style for the container */
+
+  
+  /* Style for the inner content */
+  .footer {
+    background: linear-gradient(to bottom, 
+    #3498db,  /* Blue */
+    #9b59b6,  /* Purple */
+    #e74c3c,  /* Red */
+    #e67e22,  /* Orange */
+    #f1c40f,  /* Yellow */
+    #ffffff,  /* White */
+    #3498db   /* Blue */
+  );
+    color:white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top:300px;
+    width:80%;
+   height:400px;
+    margin-left:105px;
+    
+  }
+  
+  /* Style for the vertical alignment */
+  .footer-v {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:20px;
+    font-weight:400;
+  }
+  /* Add this to your Footer.css */
+
+/* Style for the input container */
+.input-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the email input */
+  .email-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-right: 10px;
+  }
+  
+  /* Style for the subscribe button */
+  .subscribe-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .footer-ui{
+    display:flex;
+    margin-top:50px;
+   align-items:center;
+   justify-content:space-between;
+   list-style-type:none;
+
+  }
+  
+  .ul-1{
+    list-style-type:none;
+    justify-content:center;
+    align-items:center;
+    font-size:15px;
+    margin-right:20px;
+  }
+  .ul-1 h1{
+    font-size:20px;
+    
+    
+  }
+  /* Add this to your Footer.css */
+
+/* Style for the horizontal line separator */
+.horizontal-line {
+    margin: 20px 0;
+    
+    border: none;
+    border-top: 3px solid #ccc;
+    background-color: black;
+    width:100%;
+    
+  }
+  /* Add this to your Footer.css */
+
+/* Style for the container with the line and icons */
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+  
+  /* Style for the copyright text */
+  .line h3 {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Style for the social media icons */
+  .footer-icon {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    margin-right:20px;
+  }
+  
+  .footer-icon li {
+    font-size: 20px;
+    color: #3498db; /* You can adjust the color */
+    cursor: pointer;
+  }
+  
+  /* Style for the icons on hover */
+  .footer-icon li:hover {
+    color: black; /* Adjust the hover color */
+  }
+  

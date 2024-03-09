@@ -1,0 +1,119 @@
+.blogh{
+    text-align:center;
+    margin-top:100px;
+    margin-bottom:50px;
+    font-size:50px;
+    font-weight:800;
+}
+.flex{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+/* Blog.css */
+.card1 {
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+    transition: opacity 0.5s ease, transform 3s ease;
+    background-color:light white;
+    overflow: hidden;
+    transition: transform 0.3s;
+    border-radius:22px;
+    cursor:pointer;
+    margin-left:30px;
+    margin-right:30px;
+    
+  }
+  
+  .card1:hover {
+    transform: scale(1.05);
+    background-color:#1A1110;
+  }
+  
+  .card-content1 {
+    margin-top:60px;
+    margin-left:30px;
+    position:absolute;
+    
+    
+    
+   
+    transition: opacity 0.3s;
+  }
+  
+  
+  /* Blog.css */
+.card-background {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    
+    opacity: 0;
+    transition: opacity 0.3s;
+    position: absolute; /* Add this line */
+    top: 0; /* Add this line */
+    left: 0; /* Add this line */
+  }
+  
+  .card1:hover .card-background {
+  opacity: 1;
+}
+.card1:hover .card-content1 h2
+ {
+    color:white;
+  }
+   .card1:hover .card-content1 p{
+    color:white;
+   }
+  .card-content1 h2{
+    color:black;
+    font-size:10px;
+    font-weight:300;
+  }
+  /* Blog.css */
+.card-content1 p {
+    margin: 0;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    
+    max-width:50%; /* Add this line */
+  }
+  /* Blog.css */
+.horizontal-line {
+    width: 100%;
+    height: 3px;
+    background-color: blue;
+    border: 1px solid blue;
+    margin-top:20px;
+  }
+  .card1:hover .horizontal-line{
+    background-color: white;
+    border: 1px solid white;
+
+  }
+  .read{
+    font-size:20px;
+    font-weight:400;
+  }
+  
+  .card1:hover .read{
+    color:white;
+  }
+  /* Blog.css */
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px; /* Adjust the margin as needed */
+  }
+  .load{
+    background-color:blue;
+    color:white;
+    
+    width:100px;
+    height:50px;
+    border-radius:5px;
+    cursor:pointer;
+  }
+  

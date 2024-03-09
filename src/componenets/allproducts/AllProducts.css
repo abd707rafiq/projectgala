@@ -1,0 +1,92 @@
+.scard-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20rem;
+    
+    
+    z-index: -2;
+  }
+  .all-p{
+    justify-content:center;
+    text-align:center;
+    font-size:30px;
+    margin-top:-700px;
+  }
+  .scard {
+    margin: 20px;
+    border: 2px solid #ededed;
+    padding: 20px;
+    cursor: pointer;
+    position:relative;
+  }
+  .scard:hover{
+    length:15px;
+    box-shadow: 0px 0px 10px black; 
+    transition: box-shadow 0.3s ease;
+
+
+  }
+  
+  .scard-img {
+    width: 13rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .scard-title  a{
+    list-style-type:none;
+    color:white;
+    
+  }
+  
+  .scard-reviews {
+    margin-bottom: 1rem;
+    display: flex;
+  }
+  
+  .srating-star {
+    color: #d5ab55;
+  }
+  
+  .stotal-reviews {
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+  
+  .scard-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sbag-icon {
+    color: #535353;
+  }
+  
+  .cart-btn {
+    display: none; /* Initially hide the button */
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius:10px;
+    cursor: pointer;
+    margin-top:10px;
+    postion:absolute;
+    
+  transform: translateX(60%);
+    
+  }
+  
+  .scard:hover .cart-btn {
+    display: block; 
+    
+    
+  }
+  .iscart{
+    font-size:25px;
+    text-align:center;
+    
+    margin:0 auto;
+  }
+  /* AllProducts.css */
+

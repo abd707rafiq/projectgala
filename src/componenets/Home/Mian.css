@@ -1,0 +1,25 @@
+/* Main.css */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Start columns from the left */
+  align-content: flex-start; /* Align rows to the start */
+  gap: 20px;
+  
+ 
+}
+
+.row-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Align items to the start within columns */
+  gap: 20px;
+}
+
+.card-row {
+  display: flex;
+  align-items: flex-start; /* Align items to the start within rows */
+  gap: 20px;
+}
+

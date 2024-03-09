@@ -1,0 +1,146 @@
+
+.navbar1{
+    display:flex;
+    background-color:black;
+    color:white;
+    justify-content:space-between;
+    align-items:center;
+    height:50px;
+}
+.animate{
+    animation:slideIn 2s ease-in-out;
+
+}
+@keyframes slideIn {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+.left1{
+    margin-left:20px;
+    font-size:15px;
+    font-weight:300;
+    
+}
+.right1{
+    display:flex;
+    margin-right:30px;
+    font-size:15px;
+    font-weight:500;
+    gap:20px;
+    
+}
+.left1-icon1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+.left1-icon2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+.vertical-line {
+    width: 2px;
+    height: 30px; /* Adjust the height as needed */
+    background-color: gray;
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+
+  .content{
+    display:flex;
+    height:110px;
+   
+    justify-content:space-between;
+    
+  }
+  .left2{
+    display:flex;
+    list-style-type:none;
+    justify-content:center;
+    align-items:center;
+    gap:13px;
+    font-size:13px;
+    
+  }
+  
+  
+  .logo{
+    margin-left:20px;
+    margin-right:50px;
+    font-size:25px;
+    font-weight:500;
+  }
+  .right2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+    margin-right:23px;
+
+  }
+  .right-icons{
+    display:flex;
+    flex-direction:row;
+    list-style-type:none;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    font-size:15px;
+    cursor:pointer;
+    position:relative;
+   
+    
+  }
+  .cart-tooltip {
+    position: absolute;
+     /* Adjust this value for the desired positioning */
+    left: 30%;
+    transform: translateX(-50%);
+    padding: 28px;
+    border-radius:10px solid black;
+    color:black;
+
+    box-shadow: 0px 0px 10px black; 
+    transition: box-shadow 0.3s ease;
+    
+    margin-top:20px;
+    font-size: 14px;
+    border-radius: 4px;
+    
+    
+     /* Ensure the tooltip appears above other content */
+  }
+  .cart-p{
+    margin-top:0;
+  }
+  
+  
+  
+  .tooltip-btn1 {
+    background-color: #007bff;
+    color: white;
+    border-radius: 2px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    
+    
+  }
+  .tooltip-btn2 {
+    background-color: #007bff;
+    color: white;
+    border-radius: 2px;
+    padding: 4px 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    margin-top:3px;
+    
+    
+  }
+  
